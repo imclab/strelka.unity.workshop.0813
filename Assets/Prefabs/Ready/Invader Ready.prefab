@@ -11,6 +11,7 @@ GameObject:
   - 111: {fileID: 11100000}
   - 65: {fileID: 6500000}
   - 114: {fileID: 11400000}
+  - 114: {fileID: 11400002}
   m_Layer: 0
   m_Name: Invader Ready
   m_TagString: Untagged
@@ -2664,6 +2665,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FireInterval: 5
   BombPrefab: {fileID: 100000, guid: b6ef18edc700a3440a0aacc8b3adaafc, type: 2}
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f72defb28245be4ba9cc2d3548dd0ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Amplitude: .0199999996
+  Frequency: 5
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

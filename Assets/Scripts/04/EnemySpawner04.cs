@@ -10,8 +10,7 @@ public class EnemySpawner04 : MonoBehaviour
     public float RowPadding = 1;
     public float ColumnPadding = 1;
 
-    public float MoveInteval = 2f;
-    public float MoveAmount = .2f;
+    public float MoveSpeed = 0.1f;
 
     private void Start()
     {
@@ -25,20 +24,14 @@ public class EnemySpawner04 : MonoBehaviour
             }
         }
 
-        MoveInteval /= Mathf.Sqrt((FindObjectOfType(typeof(Levels04)) as Levels04).Level);
-
-        StartCoroutine(move());
+        MoveSpeed *= Mathf.Pow((FindObjectOfType(typeof(Levels04)) as Levels04).Level, 2);
     }
 
-    private IEnumerator move()
+    private void Update()
     {
-        while (true)
+        foreach (Transform enemy in transform)
         {
-            yield return new WaitForSeconds(MoveInteval);
-            foreach (Transform enemy in transform)
-            {
-                enemy.localPosition += Vector3.down*MoveAmount;
-            }
+            enemy.localPosition += Vector3.down * MoveSpeed * Time.deltaTime;
         }
     }
 
