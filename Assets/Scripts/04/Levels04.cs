@@ -38,11 +38,18 @@ public class Levels04 : MonoBehaviour
             else
             {
                 var player = GameObject.Find("Player");
-                foreach (Transform enemy in enemies.transform)
+                if (player == null)
                 {
-                    if (enemy.position.y - enemy.collider.bounds.extents.y <= player.transform.position.y + player.collider.bounds.extents.y)
+                    Application.LoadLevel("Game Over");
+                }
+                else
+                {
+                    foreach (Transform enemy in enemies.transform)
                     {
-                        Application.LoadLevel("Game Over");
+                        if (enemy.position.y - enemy.collider.bounds.extents.y <= player.transform.position.y + player.collider.bounds.extents.y)
+                        {
+                            Application.LoadLevel("Game Over");
+                        }
                     }
                 }
             }
@@ -51,8 +58,18 @@ public class Levels04 : MonoBehaviour
             if (Input.GetKeyUp(KeyCode.Return))
             {
                 if (Application.loadedLevelName == "You Win") Level++;
+                else Level = 1;
                 Application.LoadLevel(currentLevelName);
             }
         }
     }
+
+    private void OnGUI()
+    {
+        if (Application.loadedLevelName == currentLevelName)
+        {
+            GUI.Label(new Rect(50, 50, 200, 40), "Level: " + Level);
+        }
+    }
+
 }

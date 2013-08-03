@@ -10,8 +10,6 @@ GameObject:
   - 4: {fileID: 400000}
   - 33: {fileID: 3300000}
   - 23: {fileID: 2300000}
-  - 114: {fileID: 11400000}
-  - 114: {fileID: 11400002}
   - 135: {fileID: 13500000}
   m_Layer: 0
   m_Name: Asteroid
@@ -56,32 +54,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100000}
   m_Mesh: {fileID: 4300000, guid: e00a0e7e4ddc1434ea79e55cbf433011, type: 3}
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a0e51e978f01ae4a9bd36521dfcb1de, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &11400002
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c7436f6306964646be57bc16e1a5127, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  XSpeed: 90
-  YSpeed: 90
-  ZSpeed: 90
-  SpeedVariation: .300000012
 --- !u!135 &13500000
 SphereCollider:
   m_ObjectHideFlags: 1
