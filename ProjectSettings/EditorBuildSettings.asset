@@ -8,6 +8,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/03 - Win.unity
   - enabled: 1
-    path: Assets/Scenes/You Win.unity
+    path: Assets/Scenes/Misc/You Win.unity
   - enabled: 1
-    path: Assets/Scenes/Game Over.unity
+    path: Assets/Scenes/Misc/Game Over.unity
