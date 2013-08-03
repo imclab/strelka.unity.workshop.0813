@@ -24,7 +24,7 @@ public class EnemySpawner04 : MonoBehaviour
             }
         }
 
-        MoveSpeed *= Mathf.Pow((FindObjectOfType(typeof(Levels04)) as Levels04).Level, 2);
+        MoveSpeed *= Mathf.Pow((FindObjectOfType(typeof(Levels04)) as Levels04).Level, 1.7f);
     }
 
     private void Update()
