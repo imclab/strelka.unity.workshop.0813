@@ -12,6 +12,6 @@ public class Strafe : MonoBehaviour {
 	
 	void Update ()
 	{
-        transform.localPosition += Vector3.right * Mathf.Sin((Time.time + transform.localPosition.y) * Frequency) * Amplitude;
+        transform.localPosition += Vector3.right * Mathf.Sin((Time.time) * Frequency + transform.localPosition.y) * Amplitude;
 	}
 }

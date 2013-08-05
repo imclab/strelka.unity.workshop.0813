@@ -10,8 +10,8 @@ GameObject:
   - 4: {fileID: 400000}
   - 111: {fileID: 11100000}
   - 65: {fileID: 6500000}
-  - 114: {fileID: 11400000}
   - 114: {fileID: 11400002}
+  - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: Invader Ready
   m_TagString: Untagged
@@ -2663,7 +2663,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5247be8cae3aec439eb3e329d1e7a3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FireInterval: 5
+  FireInterval: 3
   BombPrefab: {fileID: 100000, guid: b6ef18edc700a3440a0aacc8b3adaafc, type: 2}
 --- !u!114 &11400002
 MonoBehaviour:

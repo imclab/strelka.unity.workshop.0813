@@ -31,7 +31,6 @@ public class Enemy05 : MonoBehaviour
         {
             var bomb = Instantiate(BombPrefab) as GameObject;
             bomb.name = "Bomb";
-            bomb.transform.parent = transform.parent;
             bomb.transform.position = transform.position;
             yield return new WaitForSeconds(FireInterval);
         }

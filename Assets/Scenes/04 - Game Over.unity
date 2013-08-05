@@ -395,7 +395,7 @@ MonoBehaviour:
   Columns: 10
   RowPadding: 1
   ColumnPadding: 1
-  MoveSpeed: .00999999978
+  MoveSpeed: .300000012
 --- !u!1001 &1379596331
 Prefab:
   m_ObjectHideFlags: 0

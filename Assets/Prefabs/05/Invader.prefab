@@ -10,7 +10,6 @@ GameObject:
   - 4: {fileID: 400000}
   - 111: {fileID: 11100000}
   - 65: {fileID: 6500000}
-  - 114: {fileID: 11400000}
   m_Layer: 0
   m_Name: Invader
   m_TagString: Untagged
@@ -2651,19 +2650,6 @@ Animation:
   m_UserAABB:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 1.10000002, y: .699999928, z: .099999994}
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 100000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e5247be8cae3aec439eb3e329d1e7a3a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FireInterval: 5
-  BombPrefab: {fileID: 100000, guid: b6ef18edc700a3440a0aacc8b3adaafc, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
