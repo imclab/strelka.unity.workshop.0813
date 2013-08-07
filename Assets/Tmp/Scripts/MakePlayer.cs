@@ -27,7 +27,7 @@ public static class MakePlayer {
         if (Selection.activeGameObject.GetComponent<BoxCollider>() == null)
         {
             var c = Selection.activeGameObject.AddComponent<BoxCollider>();
-            c.isTrigger = true;
+            c.isTrigger = true;  
         }
     }
 
