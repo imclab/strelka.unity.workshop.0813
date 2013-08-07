@@ -435,7 +435,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 866c80eb7108946479f86d28da7388d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnemyPrefab: {fileID: 100000, guid: 747da905d60c8b645b39edafa30f2a05, type: 2}
+  EnemyPrefab: {fileID: 100000, guid: cdae8d77c5b037a45898b2a4b5e0eb39, type: 2}
   Rows: 3
   Columns: 10
   RowPadding: 1

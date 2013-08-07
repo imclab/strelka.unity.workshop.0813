@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Player : MonoBehaviour
+public class PlayerDeath : MonoBehaviour
 {
     private void OnTriggerEnter(Collider otherCollider)
     {
@@ -11,6 +11,4 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void Start()
-    {}
 }

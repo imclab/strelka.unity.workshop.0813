@@ -20,9 +20,9 @@ public static class MakePlayer {
             var fire = Selection.activeGameObject.AddComponent<Fire>();
             fire.RocketPrefab = AssetDatabase.LoadAssetAtPath("Assets/Prefabs/Ready/Rocket Ready 06.prefab", typeof(GameObject)) as GameObject;
         }
-        if (Selection.activeGameObject.GetComponent<Player>() == null)
+        if (Selection.activeGameObject.GetComponent<PlayerDeath>() == null)
         {
-            Selection.activeGameObject.AddComponent<Player>();
+            Selection.activeGameObject.AddComponent<PlayerDeath>();
         }
         if (Selection.activeGameObject.GetComponent<BoxCollider>() == null)
         {

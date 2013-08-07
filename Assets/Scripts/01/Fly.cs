@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class Rocket : MonoBehaviour
+public class Fly : MonoBehaviour
 {
 
     public float Speed = 10;

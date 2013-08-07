@@ -55,7 +55,7 @@ public class Levels04 : MonoBehaviour
             }
         } else
         {
-            if (Input.GetKeyUp(KeyCode.Return))
+            if (Input.GetKeyUp(KeyCode.Space))
             {
                 if (Application.loadedLevelName == "You Win") Level++;
                 else Level = 1;

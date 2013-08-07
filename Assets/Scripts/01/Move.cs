@@ -6,10 +6,11 @@ public class Move : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
         {
             transform.localPosition += Vector3.left*Speed*Time.deltaTime;
-        } else if (Input.GetKey(KeyCode.RightArrow))
+        }
+        else if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             transform.localPosition += Vector3.right*Speed*Time.deltaTime;
         }
