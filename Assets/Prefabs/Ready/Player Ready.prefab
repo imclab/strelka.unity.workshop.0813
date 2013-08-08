@@ -79,8 +79,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49ce56de041378146814b8752a290d2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnOffset: {x: 0, y: .300000012, z: 0}
-  RocketPrefab: {fileID: 100000, guid: 219a846ac657111419624eab3b380c98, type: 2}
+  SpawnOffset: {x: 0, y: .349999994, z: 0}
+  RocketPrefab: {fileID: 100000, guid: 573fd6e6593afb649aaad2ca97306be7, type: 2}
 --- !u!114 &11400002
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f8eb1094afee4449b4d3ff7c85db23c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 10
+  Speed: 5
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
